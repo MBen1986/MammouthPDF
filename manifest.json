@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "MammouthAI PDF Export",
+  "version": "0.1.0",
+  "description": "Formatiert MammouthAI-Chats sauber und startet einen PDF-freundlichen Druckexport.",
+  "permissions": [],
+  "host_permissions": [
+    "https://mammouth.ai/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mammouth.ai/app/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
