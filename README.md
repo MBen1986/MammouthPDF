@@ -95,6 +95,14 @@ Produce clean PDF exports with:
 - `content.js` – UI + export logic + print styling
 - `README.md` – documentation
 
+### Repository & Release
+
+- GitHub repository: `https://github.com/MBen1986/MammouthPDF`
+- Default branch: `main`
+- Visibility: `public`
+- Release ZIPs are intentionally ignored by Git (`*.zip`) and uploaded manually to GitHub Releases.
+- Current local release artifact: `mammouthai-pdf-exporter-v0.1.1.zip`
+
 ### Status
 
 Final accepted feature set.
@@ -195,6 +203,14 @@ Sauber formatierte PDF-Exporte mit:
 - `manifest.json` – MV3-Konfiguration
 - `content.js` – UI/Export-Logik inkl. Drucklayout
 - `README.md` – Dokumentation
+
+### Repository & Release
+
+- GitHub-Repository: `https://github.com/MBen1986/MammouthPDF`
+- Standard-Branch: `main`
+- Sichtbarkeit: `public`
+- Release-ZIPs sind absichtlich per Git ausgeschlossen (`*.zip`) und werden manuell in GitHub Releases hochgeladen.
+- Aktuelles lokales Release-Artefakt: `mammouthai-pdf-exporter-v0.1.1.zip`
 
 ### Status
 
